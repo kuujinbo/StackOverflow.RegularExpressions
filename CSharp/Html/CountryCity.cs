@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 // http://stackoverflow.com/questions/35219965
-namespace kuujinbo.StackOverflow.RegularExpressions.Html
+namespace kuujinbo.StackOverflow.RegularExpressions.CSharp.Html
 {
     public class CountryCity
     {

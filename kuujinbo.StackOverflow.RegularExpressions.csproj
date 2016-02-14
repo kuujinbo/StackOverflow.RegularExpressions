@@ -42,12 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Html\CountryCity.cs" />
-    <Compile Include="NonEscapedCharacter.cs" />
+    <Compile Include="CSharp\Html\CountryCity.cs" />
+    <Compile Include="CSharp\NonEscapedCharacter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleYyyyMmDd.cs" />
-    <Compile Include="TextFieldParseRegex.cs" />
+    <Compile Include="CSharp\SimpleYyyyMmDd.cs" />
+    <Compile Include="CSharp\TextFieldParseRegex.cs" />
     <Compile Include="Utilities\IO.cs" />
   </ItemGroup>
   <ItemGroup>

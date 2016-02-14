@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 // http://stackoverflow.com/questions/35227114
-namespace kuujinbo.StackOverflow.RegularExpressions
+namespace kuujinbo.StackOverflow.RegularExpressions.CSharp
 {
     public class NonEscapedCharacter
     {
