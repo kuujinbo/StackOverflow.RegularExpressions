@@ -27,7 +27,7 @@ namespace kuujinbo.StackOverflow.RegularExpressions.CSharp
                     for (int i = 0; i < cleanFieldRowCells.Length; ++i)
                     {
                         Console.WriteLine(
-                            "Field[{0}]: = [{1}]", i, cleanFieldRowCells[i]
+                            "Field[{0}] = [{1}]", i, cleanFieldRowCells[i]
                         );
                     }
                     Console.WriteLine("{0}", new string('=', 40));
