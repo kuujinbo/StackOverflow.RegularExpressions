@@ -11,7 +11,8 @@ namespace kuujinbo.StackOverflow.RegularExpressions.CSharp
         public void Go()
         {
             var inputPath = IO.GetInputFilePath("TextFieldParseRegex.txt");
-
+            var line = new string('=', 40);
+            Console.WriteLine(line);
             using (var parser = new TextFieldParser(inputPath))
             {
                 parser.TextFieldType = FieldType.Delimited;
@@ -21,16 +22,16 @@ namespace kuujinbo.StackOverflow.RegularExpressions.CSharp
 
                 while (parser.PeekChars(1) != null)
                 {
+                    Console.WriteLine("Line {0}: ", parser.LineNumber);
                     var cleanFieldRowCells = parser.ReadFields().Select(
                         f => f.Trim(new[] { ' ', '"' })).ToArray();
-                    Console.WriteLine("New Line");
                     for (int i = 0; i < cleanFieldRowCells.Length; ++i)
                     {
                         Console.WriteLine(
                             "Field[{0}] = [{1}]", i, cleanFieldRowCells[i]
                         );
                     }
-                    Console.WriteLine("{0}", new string('=', 40));
+                    Console.WriteLine(line);
                 }
             }
         }
