@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleYyyyMmDd.cs" />
+    <Compile Include="TextFieldParseRegex.cs" />
+    <Compile Include="Utilities\IO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -54,6 +57,7 @@
   <ItemGroup>
     <Content Include="JavaScript\35374806\app.js" />
     <Content Include="JavaScript\35374806\index.html" />
+    <Content Include="_INPUT\TextFieldParseRegex.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

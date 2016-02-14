@@ -6,7 +6,8 @@ namespace kuujinbo.StackOverflow.RegularExpressions
     {
         static void Main(string[] args)
         {
-            new SimpleYyyyMmDd().Go();
+            new TextFieldParseRegex().Go();
+            // new SimpleYyyyMmDd().Go();
             //new CountryCity().Go();
             //new NonEscapedCharacter().Go();
         }
