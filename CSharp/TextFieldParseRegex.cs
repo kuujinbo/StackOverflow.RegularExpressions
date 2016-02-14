@@ -3,6 +3,7 @@ using System.Linq;
 using Microsoft.VisualBasic.FileIO;
 using kuujinbo.StackOverflow.RegularExpressions.Utilities;
 
+// http://stackoverflow.com/questions/35389302
 namespace kuujinbo.StackOverflow.RegularExpressions.CSharp
 {
     public class TextFieldParseRegex
