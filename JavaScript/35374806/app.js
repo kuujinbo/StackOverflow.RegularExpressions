@@ -7,7 +7,7 @@ app.directive('inputRestrictor', [function () {
         require: 'ngModel',
         link: function (scope, element, attr, ngModelCtrl) {
             // changed here
-            var pattern = /^(?:''||(?:[0-9]+(?:\.[0-9]{0,4})?))$/g;
+            var pattern = /^(?:|(?:[0-9]+(?:\.[0-9]{0,4})?))$/g;
             var view_value;
 
             function fromUser(text) {
