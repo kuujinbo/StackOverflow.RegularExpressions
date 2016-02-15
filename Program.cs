@@ -7,7 +7,7 @@ namespace kuujinbo.StackOverflow.RegularExpressions
     {
         static void Main(string[] args)
         {
-            new TextFieldParseRegex().Go();
+            new TextFieldParserKeepWhiteSpace().Go();
             // new SimpleYyyyMmDd().Go();
             // new CountryCity().Go();
             //new NonEscapedCharacter().Go();
